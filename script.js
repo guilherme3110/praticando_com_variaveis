@@ -34,14 +34,9 @@
 
         <!-- questão 5 --> 
 
-            let n1 = prompt("Insira um numero");
-            let n2 = prompt("insira outro numero");
-
-            quadrado = (n1 * n2);
-
-            alert(` o valor ${n1} ao quadrado é ${quadrado}`)
-
-
+        let n1 = prompt("Digite um número");
+        let math = Math.pow(n1, 2);
+        alert(` o valor ${n1} ao quadrado é ${math}` )
         <!-- questão 6 --> 
 
 
@@ -70,15 +65,21 @@
 
         <!-- questão 9 --> 
 
-            
+            let publicacao = prompt("Escreva uma frase");
 
-
-
-
-
-
+            publicacao[0].toUpperCase() + publicacao.substring(-1);
+        
+            alert(` A primeira letra do texto é ${toUpperCase} e a ultima é ${substr}`)
 
         <!-- questão 10 --> 
 
-
+            let nome = prompt("digite seu nome");
+            let sobrenome = prompt("digite seu sobrenome");
+            let idade = prompt("digite sua Idade");
+            let setor = prompt("digite seu setor");
+        
+            let upper = nome.toUpperCase();  
+            let sobre = sobrenome.toUpperCase();
+        
+            alert(`nome: ${upper} ${sobre} - idade: ${idade} - Setor: ${setor}`)
 
