@@ -65,11 +65,11 @@
 
         <!-- questão 9 --> 
 
-            let publicacao = prompt("Escreva uma frase");
-
-            publicacao[0].toUpperCase() + publicacao.substring(-1);
-        
-            alert(` A primeira letra do texto é ${toUpperCase} e a ultima é ${substr}`)
+            const publicacao = prompt("Escreva uma frase");
+            let letraMaiscula = publicacao[0].toUpperCase();
+            let letraMinuscula = publicacao.substr(-1);
+	
+            alert (` A primeira letra do texto é: ${letraMaiscula} e a ultima é o: ${letraMinuscula}`)  
 
         <!-- questão 10 --> 
 
